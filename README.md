@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+# 🧮 Customizable Drag-and-Drop Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully interactive and customizable calculator built with **React, Zustand, and Tailwind CSS**. Users can drag & drop components, create their own layout, and even save their custom design with **local storage persistence**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Drag & Drop Components** – Add or remove buttons dynamically.  
+✅ **Predefined Components** – Includes number buttons (0-9), operations (+, -, *, /), and a result display.  
+✅ **Custom Layout** – Arrange buttons as you like.  
+✅ **Calculation Logic** – Fully functional arithmetic operations.  
+✅ **State Management with Zustand** – Manage components dynamically.  
+✅ **Tailwind CSS Styling** – Clean and responsive UI.  
 
-## Expanding the ESLint configuration
+## ✨ Bonus Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🌙 **Dark Mode Toggle** – Switch between light and dark themes.  
+💾 **Persistence with Local Storage** – Saves the calculator layout even after refresh.  
+🔄 **Undo/Redo Functionality** – Revert changes easily.  
 
-- Configure the top-level `parserOptions` property like this:
+## 📸 Screenshots
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+_(Add some screenshots or a GIF showcasing your project here.)_
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Frontend:** React, Zustand, Tailwind CSS  
+- **State Management:** Zustand  
+- **Storage:** Local Storage  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🔧 Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/custom-calculator.git
+   cd custom-calculator
+Install dependencies:
+
+sh
+Copy
+Edit
+npm install
+Run the project:
+
+sh
+Copy
+Edit
+npm start
+📌 Usage
+Drag components to the calculator area to add them.
+Remove components by dragging them away.
+Toggle Dark Mode from the UI.
+The layout is automatically saved in Local Storage.
+Use Undo/Redo to modify changes.
+🤝 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request.
+
+📜 License
+This project is open-source and available under the MIT License.
+
+🔗 Feel free to customize this README further based on your needs! 🚀
+
+vbnet
+Copy
+Edit
+
+Let me know if you need any modifications! 🚀
